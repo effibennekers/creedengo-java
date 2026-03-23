@@ -5,7 +5,7 @@ services:
     build: .
     container_name: sonar_creedengo_java
     ports:
-      - ":9000"
+      - "9000:9000"
     networks:
       - sonarnet
     depends_on:
